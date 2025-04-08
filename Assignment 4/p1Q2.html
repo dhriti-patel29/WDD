@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tourism Image Gallery</title>
+  <style>
+    *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        body{
+            background-color: crimson;
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px){
+            body{
+                background-color: darkmagenta;
+            }
+        }
+
+        .card-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            display: flexbox;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .card{
+           
+            width: 325px;
+            background-color: beige;
+            border-radius: 8px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+            margin: 20px;
+            overflow: hidden;
+        }
+
+        .card img{
+            width:100%;
+            height: 50%;
+        }
+
+        .card-content{
+            padding: 16px;
+        }
+
+        .card-content h2{
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        .card-content p{
+            color:darkcyan;
+            font-size: 20px;
+            line-height: 1.3;
+        }
+  </style>
+</head>
+<body>
+
+    <h1>Tourism Gallery</h1>
+    <div class="card-container">
+    <div class="card">
+            <img src="img4.jpg">
+            <div class="card-content">
+                <h2>Kangchenjunga Mountains</h2>
+                <p>The third highest peak in the world, the majestic Kanchenjunga surroundded by Nepal, Sikkim.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img5.jpg">
+            <div class="card-content">
+                <h2>Bhutan Beauty</h2>
+                <p>A land of towering mountainscapes and rich culture, Bhutan is a small, landlocked country situated in the heart of south-central Asia.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img6.jpg">
+            <div class="card-content">
+                <h2>Lhodrak Kharchu Monastery</h2>
+                <p>Lhodrak Kharchu Monastery is a Buddhist Nyingmapa Monastery of Jangter Tradition based in Bumthang District Central Bhutan. The monastery overlooks Jakar Dzong and the valley of Jakar town.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img7.jpg">
+            <div class="card-content">
+                <h2>Nepal Culture</h2>
+                <p>The culture of Nepal encompasses the various cultures belonging to the 125 distinct ethnic groups present in Nepal. The culture of Nepal is expressed through music and dance; art and craft; folklore; languages and literature; philosophy and religion; festivals and celebration; foods and drinks.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img8.jpg">
+            <div class="card-content">
+                <h2>Himalayas</h2>
+                <p>The Himalayas is a mountain range in Asia, separating the plains of the Indian subcontinent from the Tibetan Plateau.It is the highest mounatin peak in the world.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img9.jpg">
+            <div class="card-content">
+                <h2>Bhutan Landscape</h2>
+                <p>The Himalayas, or Himalaya is a mountain range in Asia, separating the plains of the Indian subcontinent from the Tibetan Plateau.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img10.jpg">
+            <div class="card-content">
+                <h2>Kathmandu</h2>
+                <p>Kathmandu, Nepal's capital, is set in a valley surrounded by the Himalayan mountains. At the heart of the old city’s mazelike alleys is Durbar Square, which becomes frenetic during Indra Jatra, a religious festival featuring masked dances.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img11.jpg">
+            <div class="card-content">
+                <h2>Gangteng Monastery</h2>
+                <p>Gangteng Monastery, also known as Gangtey Gonpa or Gangtey Monastery, is a monastery of Nyingmapa school of Tibetan Buddhism, the main seat of the Pema Lingpa tradition, located in the Wangdue Phodrang District in central Bhutan.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img12.jpg">
+            <div class="card-content">
+                <h2>Trekking In Nepal</h2>
+                <p>Nepal is a world-renowned trekking destination, offering diverse trails and stunning Himalayan scenery, with popular options including the Everest Base Camp Trek and the Annapurna Circuit.</p>
+            </div>
+        </div>
+
+  </div>
+</div>
+</body>
+</html>

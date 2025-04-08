@@ -1,0 +1,30 @@
+*{
+    font-family:Arial,sans-serif;
+    background-color: darkslategrey;
+}
+
+.intro {
+    color:aqua;
+    font-size: 20px;      
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+}
+
+#unique {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+h1,p {
+    margin-bottom: 15px;
+}
+
+ul li{
+    list-style-type: square;
+    color: bisque;
+}
+
+
